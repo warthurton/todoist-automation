@@ -3,7 +3,7 @@ import sys
 import todoist
 import json
 
-with open('config.json') as data_file:
+with open('/home/warthurton/.todoistautomatin.json') as data_file:
 	data=json.load(data_file)
 
 todoistKey = data["TodoistAPIKey"];
